@@ -57,8 +57,8 @@ Contributions are welcome! If you have any ideas for improvements or would like 
 
 ## License 📄
 
-This project is owned by Gyuhwan Choi. You have the full rights to the project as its creator.
+This project is owned by Pavan Chandramouleswara. You have the full rights to the project as its creator.
 
 ## Created By 👨‍💻
 
-This project was created by Gyuhwan Choi.
+This project was created by Pavan Chandaouleswara
