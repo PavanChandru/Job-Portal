@@ -1,0 +1,248 @@
+/* Footer CSS, created by Gyuhwan Choi */
+
+/* Common Styles */
+.contact-form input[type="email"],
+.contact-form textarea,
+form input[type="text"],
+form input[type="email"],
+form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.contact-form textarea,
+form textarea {
+  height: 120px;
+}
+
+.contact-form button[type="submit"],
+form button[type="submit"] {
+  display: block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #333;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  font-size: 1rem;
+}
+
+.contact-form button[type="submit"]:hover,
+form button[type="submit"]:hover {
+  background-color: #555;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 1rem;
+  text-align: center;
+}
+
+main {
+  padding: 2rem;
+}
+
+section {
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+form button[type="submit"] {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+form button[type="submit"]:hover {
+  background-color: #555;
+}
+
+footer {
+  background-color: #111;
+  color: #fff;
+  font-family: Arial, sans-serif;
+  padding: 80px 0;
+}
+
+.footer-content {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.footer-content h2 {
+  font-size: 2.5rem;
+}
+
+.footer-section {
+  flex-basis: 30%;
+  margin-bottom: 50px;
+}
+
+.about h2.logo {
+  color: gray;
+}
+
+.footer-content p {
+  line-height: 1.8;
+  margin-bottom: 20px;
+  color: #E5E5CC;
+}
+
+.contact span {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.socials a {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+  border-radius: 50%;
+  color: #fff;
+  background-color: #333;
+  text-align: center;
+  line-height: 40px;
+}
+
+.socials img {
+  width: 40px;
+}
+
+.links ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.links li {
+  margin-bottom: 10px;
+}
+
+.links a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+.footer-bottom {
+  background-color: #000;
+  padding: 10px 0;
+  text-align: center;
+  font-size: 0.9rem;
+}
+
+.footer-bottom p {
+  margin: 0;
+}
+
+@media (max-width: 1200px) {
+  footer {
+    background-color: #111;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    padding: 40px 0;
+  }
+
+  .footer-content {
+    max-width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .footer-section {
+    flex-basis: 50%;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+
+  .about h2.logo {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+
+  .about p {
+    line-height: 1.5;
+    margin-bottom: 10px;
+  }
+
+  .contact span {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 1rem;
+  }
+
+  .socials a {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+    border-radius: 50%;
+    color: #fff;
+    background-color: #333;
+    text-align: center;
+    line-height: 30px;
+    font-size: 1rem;
+  }
+
+  .socials img {
+    width: 30px;
+  }
+
+  .links ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-size: 1rem;
+  }
+
+  .links li {
+    margin-bottom: 10px;
+  }
+
+  .links a {
+    color: #fff;
+    text-decoration: none;
+  }
+
+  .footer-bottom {
+    background-color: #000;
+    padding: 10px 0;
+    text-align: center;
+    font-size: 0.8rem;
+  }
+
+  .footer-bottom p {
+    margin: 0;
+  }
+}
